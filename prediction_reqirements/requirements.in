@@ -1,0 +1,39 @@
+# Deep Learning & ML
+torch==1.13.1
+torchvision==0.14.1
+tensorflow==2.11.0
+efficientnet-pytorch==0.7.1
+segmentation-models-pytorch==0.3.3
+timm==0.9.2
+huggingface-hub==0.16.4
+
+# Data Science & Visualization
+numpy==1.21.6
+pandas==1.3.5
+matplotlib==3.5.3
+scikit-learn==1.0.2
+
+# Image Processing
+Pillow==9.4.0
+opencv-python==4.6.0.66
+scikit-image==0.19.3
+albumentations==1.3.0
+
+# Medical Imaging
+pydicom==2.3.1
+SimpleITK==2.2.1
+tiatoolbox==1.3.3
+wsidicom==0.3.2
+openslide-python==1.2.0
+
+# Jupyter Environment
+jupyterlab==3.6.1
+ipykernel==6.16.2
+
+# Web Framework
+Flask==2.2.3
+Werkzeug==2.2.3
+
+# Utilities
+tqdm==4.64.1
+PyYAML==6.0
