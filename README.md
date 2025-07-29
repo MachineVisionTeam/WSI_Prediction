@@ -13,6 +13,23 @@ This project provides tools for whole slide image (WSI) analysis and segmentatio
 3. [Models Used](#models-used)
 
 
+## Citation
+
+Yaganti, V., Koganti, S.C., Yellu, S. and Lee, S., 2025, March. Color Normalization Analysis for Semantic Image Segmentation on Histopathology Images. In SoutheastCon 2025 (pp. 171-176). IEEE.
+
+## BibTeX Entries
+
+```bibtex
+@inproceedings{yaganti2025color,
+  title={Color Normalization Analysis for Semantic Image Segmentation on Histopathology Images},
+  author={Yaganti, Varshini and Koganti, Sai Chandana and Yellu, Siri and Lee, Sanghoon},
+  booktitle={SoutheastCon 2025},
+  pages={171--176},
+  year={2025},
+  organization={IEEE}
+}
+```
+
 ## Color Normalization Step
 
 The color normalization step is essential for improving the consistency of images from different sources. The `normalization.py` script computes the mean and standard deviation values of the LAB color channels (L, A, B) for each slide. These values are used to normalize the colors in the WSI during mask generation, ensuring that the model performs robustly on diverse inputs.
